@@ -1,75 +1,60 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-  <head>
-    <title>~pikachu/Hero-Converter</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <link rel="icon" href="/images/favicon.png" type="image/png" />
-  </head>
 
-  <body>
-    <div class="header">
-      <a class="brand" href="https://tanviranindo.me" onclick="target='_blank'"
-        >TANVIR</a
-      >
-      <div class="menu-btn"></div>
-      <div class="navigation">
-        <ul>
-          <li><a href="../index.html">Quote Box</a></li>
-          <li>
-            <a style="color: #f6cf57" href="../pages/hero-converter.html"
-              >Hero Converter</a
-            >
-          </li>
-          <li><a href="../pages/min-max.html">Min-Max</a></li>
-          <li><a href="../pages/magic.html">Magic!</a></li>
-        </ul>
-      </div>
+<head>
+  <title>~pikachu/Hero-Converter</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="icon" href="/images/favicon.png" type="image/png" />
+</head>
+
+<body>
+  <div class="header">
+    <a class="brand" href="https://tanviranindo.me" onclick="target='_blank'">TANVIR</a>
+    <div class="menu-btn"></div>
+    <div class="navigation">
+      <ul>
+        <li><a href="../index.html">Quote Box</a></li>
+        <li>
+          <a style="color: #f6cf57" href="../pages/hero-converter.html">Hero Converter</a>
+        </li>
+        <li><a href="../pages/min-max.html">Min-Max</a></li>
+        <li><a href="../pages/magic.html">Magic!</a></li>
+      </ul>
     </div>
+  </div>
 
-    <div class="content">
-      <div class="hero-style input-field">
-        <span class="span-text">Convert</span>
-        <input
-          onkeyup="convert(this.value)"
-          id="convert-input"
-          type="number"
-          data-placeholder="Enter Value"
-        />
+  <div class="content">
+    <div class="hero-style input-field">
+      <span class="span-text">Convert</span>
+      <input onkeyup="convert(this.value)" id="convert-input" type="number" data-placeholder="Enter Value" />
 
-        <select onchange="changeConversion()" id="convert">
-          <option value="1">lb to kg</option>
-          <option value="2">kg to lb</option>
-        </select>
-        <button class="hero-btn" onclick="clearit()">Clear</button>
-      </div>
-      <br />
-      <div class="hero-style input-field">
-        <span class="span-text">Output</span>
-        <input id="output" type="text" readonly />
-      </div>
+      <select onchange="changeConversion()" id="convert">
+        <option value="1">lb to kg</option>
+        <option value="2">kg to lb</option>
+      </select>
+      <button class="hero-btn" onclick="clearit()">Clear</button>
     </div>
-
-    <div class="footer">
-      <span id="pageLocation"></span>
-      <br />
-      <span id="lastModified"></span>
-      <br />
-      <span id="time"></span>
-      <br />
-      <a
-        class="footer-text"
-        href="https://github.com/tanviranindo"
-        onclick="target='_blank';"
-        >@tanviranindo</a
-      >
+    <br />
+    <div class="hero-style input-field">
+      <span class="span-text">Output</span>
+      <input id="output" type="text" readonly />
     </div>
-    <script type="text/javascript" src="../js/script.js "></script>
-    <script type="text/javascript" src="../js/hero.js "></script>
-  </body>
+  </div>
+
+  <div class="footer">
+    <span id="pageLocation"></span>
+    <br />
+    <span id="lastModified"></span>
+    <br />
+    <span id="time"></span>
+    <br />
+    <a class="footer-text" href="https://github.com/tanviranindo" onclick="target='_blank';">@tanviranindo</a>
+  </div>
+  <script type="text/javascript" src="../js/script.js "></script>
+  <script type="text/javascript" src="../js/hero.js "></script>
+</body>
+
 </html>
