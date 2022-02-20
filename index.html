@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+    <title>~pikachu/Quote-Box</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="icon" href="/images/favicon.png" type="image/png" />
+    <!-- <script src="https://kit.fontawesome.com/307cb67d75.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <div class="header">
+        <a class="brand" href="https://tanviranindo.me" onclick="target='_blank'">TANVIR</a
+      >
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <ul>
+          <li><a style="color: #f6cf57" href="./index.html">Quote Box</a></li>
+        <li><a href="./pages/hero-converter.html">Hero Converter</a></li>
+        <li><a href="./pages/min-max.html">Min-Max</a></li>
+        <li><a href="./pages/magic.html">Magic!</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="content">
+        <div class="wrapper" id="background-area">
+            <div class="quote-area">
+                <i class="fa-solid fa-quote-left"></i>
+                <blockquote class="quote">
+                    <div>
+                        <h2 id="quote-box"></h2>
+                    </div>
+                </blockquote>
+                <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="author">
+                <span>__</span>
+                <cite class="name" id="quoted-by"></cite>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-up-button">
+        <button class="btn programming" onclick="typeofquote('programming')">
+        Programming <i class="fa-solid fa-code"></i>
+      </button>
+        <button class="btn motivational" onclick="typeofquote('motivational')">
+        Motivational <i class="fa-regular fa-lightbulb"></i>
+      </button>
+        <button class="btn humor" onclick="typeofquote('humor')">
+        Humor <i class="fa-solid fa-brain"></i>
+      </button>
+        <button class="btn art" onclick="typeofquote('art')">
+        Art <i class="fa-solid fa-align-left"></i>
+      </button>
+    </div>
+    <div class="footer">
+        <span id="pageLocation"></span>
+        <br />
+        <span id="lastModified"></span>
+        <br />
+        <span id="time"></span>
+        <br />
+        <a class="footer-text" href="https://github.com/tanviranindo" onclick="target='_blank';">@tanviranindo</a
+      >
+    </div>
+    <script type="text/javascript " src="./js/script.js"></script>
+    <script type="text/javascript " src="./js/quote.js"></script>
+  </body>
+</html>
