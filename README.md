@@ -1,4 +1,4 @@
-# Javascript-Programming
+# Javascript Programming
 
 - https://javascript-tanviranindo.herokuapp.com/
 
