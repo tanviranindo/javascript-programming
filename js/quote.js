@@ -132,4 +132,3 @@ function randomValueGenerator(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
 
-// document.getElementById("background-area").style.background = "#a0d8c1";
